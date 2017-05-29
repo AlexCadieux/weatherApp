@@ -1,0 +1,65 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffd896  no-repeat fixed 100%;
+  background-image: url("../img/default-background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Baloo', cursive;
+}
+
+h5, h6, p {
+  font-family: 'Comfortaa', cursive;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20em;
+  min-height: 25em;
+  border: ridge thin rgba(188,188,188,0.6);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.95)
+}
+
+.centered h1, form{
+  text-align: center;
+  margin: 0.5em auto;
+}
+
+.main-app input, button {
+  display: block;
+  margin: 0.75em auto;
+}
+
+.main-app input {
+  min-height: 2em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.main-app button {
+  border: solid thin rgb(255, 181, 53);
+  background-color: rgba(255, 181, 53, 0.5);
+  font-weight:500;
+
+}
+
+.city-weather {
+  text-align: center;
+}
+
+i {
+  font-size: 3em;
+}
